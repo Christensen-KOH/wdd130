@@ -1,3 +1,7 @@
+main {
+    max-width: 400px;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -13,7 +17,7 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -22,5 +26,27 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+aside {
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid blueviolet;
+    padding: 2px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 1px dotted black;
+    text-align: center;
 }
