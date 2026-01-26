@@ -85,7 +85,7 @@ h1 {
 h2 {
     text-align: center;
     background-color: blue;
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 footer img {
